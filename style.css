@@ -1,31 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #fff8e1;
-    color: #a52a2a;
-}
-header {
-    background-color: #d32f2f;
-    color: white;
-    padding: 15px;
-    font-size: 24px;
-}
-.container {
-    margin: 50px auto;
-    max-width: 600px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-button {
-    background-color: #d32f2f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #b71c1c;
-}
+body { font-family: 'Vazirmatn', sans-serif; direction:6;tl;rgin: 0; padding: 0; overflow-color: white; padding: 20px; font-size: 22px; font-weor: white; padding: 20px; font-size: 22px; font-weor: white; padding: 20px; font-size: 22px; font-weight: bold; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ype: none; padding: 0; margin: 15px; }
+
+nav ul li a { color: white; text-decoration: none;nav ul li a { color: white; text-decoration: none;nav ul li a { color: white; text-decoration: none; fonta:hover { color: #ffcc00; }
+                                                                                                                 
+                                                               s: translateY(30px); animation: fadeInUp 1s forwards; }
+
+             .product { display:tion: fadeInUp 1s forwards; }
+
+             .product { display:tion: fadeInUp 1s forwards; }
+
+             .product { display: inlins: 12px; box-in: 15px; padding: 15px; border-radius: 12px; bund: white; px 4px 8on: transform 0e3s; transform: scale(1.05); }
+
+             button { background-color: #d32f2f; color: white; border: none; padding: 12px; border-ra 0.3s, transform 0.2s; }
+
+             buttcale(1.1); }
+
+#cart { background: #ffftrpadding: 20px; border-rad0.2); margin: 30px auto; width: 50%; opacit 0, 0, 0.2); margin: 30px auto; width: 50%; opacit 0, 0, 0.2); margin: 30px auto; width: 50%; opacit 0, 0, 0.2); margin: 30px auto; width: 50%; opacit 0, 0, 0.2); margin: 30px auto; width: 50%; opacit 0, 0, 0.2); margin: 30px auto; width: 50%; opacity: 0; transform: translateY(30px); animation: from { opac forwards 0.5s; }
+             city: 1; } }
+
+@ trarslateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+@keyfranslateY(-30px); } to { opacity: 1; transform: translateY(0); } }
+
+} to { opacity: 1; transform: translateY(0); } }
+
+} to { opacity: 1; transform: translateY(0); } }
+
+                                                               } to { opacity: 1; transform: translateY(0); } }
+

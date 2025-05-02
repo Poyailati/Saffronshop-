@@ -1,48 +1,50 @@
-<!DOCTYPE html><html lang="fa">
+<!DOCTYPE html>
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>فروشگاه زعفران</title>
+    <title>صفحه ساده با JavaScript</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             text-align: center;
-            background-color: #fff8e1;
-            color: #a52a2a;
-        }
-        header {
-            background-color: #d32f2f;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-        }
-        .container {
-            margin: 50px auto;
-            max-width: 600px;
             padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         button {
-            background-color: #d32f2f;
-            color: white;
             padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
             border: none;
-            border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
         }
         button:hover {
-            background-color: #b71c1c;
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 30px;
+            font-size: 20px;
+            color: #4CAF50;
         }
     </style>
 </head>
 <body>
-    <header>فروشگاه زعفران</header>
-    <div class="container">
-        <h2>به فروشگاه زعفران خوش آمدید</h2>
-        <p>ما بهترین زعفران را با کیفیت بالا ارائه می‌دهیم.</p>
-        <button onclick="alert('سفارش شما ثبت شد!')">سفارش دهید</button>
-    </div>
+
+    <h1>سلام! خوش آمدید به صفحه JavaScript</h1>
+    <p>برای نمایش پیامی که به زبان JavaScript نوشته شده است، دکمه زیر را فشار دهید.</p>
+    
+    <button onclick="showMessage()">نمایش پیام</button>
+
+    <div id="result"></div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("result").innerHTML = "این پیام توسط JavaScript تولید شده است!";
+        }
+    </script>
+
 </body>
-  </html>
+</html>
